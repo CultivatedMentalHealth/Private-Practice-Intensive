@@ -145,20 +145,13 @@ img {
         height: auto;
         perspective: none !important;
         transform: none !important;
+        display: none; /* Hide all pages initially */
     }
 
     .front, .back, .front-content, .back-content {
         position: relative;
         width: 100%;
         height: auto;
-        transform: none !important;
-    }
-
-    .back {
-        transform: none !important;
-    }
-
-    .flipped .front, .flipped .back {
         transform: none !important;
     }
 
